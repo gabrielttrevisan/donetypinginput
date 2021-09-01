@@ -1,6 +1,6 @@
 {
     "name": "donetypinginput",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A React component that fires an event when the user is done typing.",
     "main": "./lib/cjs/index.js",
     "module": "./lib/esm/index.js",
