@@ -8,7 +8,7 @@ interface DoneTypingInputProperties
 
 const DoneTypingInput: React.FC<DoneTypingInputProperties> = ({
     onDoneTyping,
-    doneTypingTimer,
+    doneTypingTimer = 500,
     ...properties
 }) => {
     const [typingTimer, setTypingTimer] = React.useState<number>();
