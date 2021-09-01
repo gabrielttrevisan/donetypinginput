@@ -1,0 +1,30 @@
+{
+    "name": "donetypinginput",
+    "version": "1.0.0",
+    "description": "A React component that fires an event when the user is done typing.",
+    "main": "./lib/cjs/index.js",
+    "module": "./lib/esm/index.js",
+    "types": "./lib/esm/index.d.ts",
+    "scripts": {
+        "build": "yarn build:esm && yarn build:cjs",
+        "build:esm": "tsc",
+        "build:cjs": "tsc --module commonjs --outDir lib/cjs"
+    },
+    "keywords": [
+        "react",
+        "component",
+        "input",
+        "donetyping"
+    ],
+    "author": "Gabriel Troian Trevisan",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/react": "^17.0.19",
+        "@types/react-dom": "^17.0.9"
+    },
+    "peerDependencies": {
+        "react": "^16.8.0",
+        "react-dom": "^16.8.0"
+    }
+}
